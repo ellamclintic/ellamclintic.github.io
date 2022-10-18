@@ -12,7 +12,7 @@
     <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -34,6 +34,22 @@
         <h3>Productivity puzzle</h3>
         <p>My second chart looks at productivity in the UK</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h3>Inflation official target</h3>
+        <p>My third chart shows the official target for inflation, using CPI % change over 12 months</p>
+        <div class="chart" id="Chart3"> </div>
+
+        <h3>Gross domestic product (GDP)</h3>
+        <p>The fourth chart shows GDP at market prices (£millions), from 2006 to 2022 </p>
+        <div class="chart" id="Chart4"> </div>
+
+        <h3>IMF Outstanding Lending</h3>
+        <p>The fifth chart shows Outstanding IMF lending (£billions), from the years 1984 to 2022 </p>
+        <div class="chart" id="Chart5"> </div>
+
+        <h3>Tpotal Government Expenditure on Environmental Protection</h3>
+        <p>The sixth chart shows yearly governmental expenditure on environmental protection, as a percentage of GDP, from the years 1995 to 2020 </p>
+        <div class="chart" id="Chart6"> </div>
     </div> 
 </body>
 
@@ -42,10 +58,18 @@
     //Define charts:
     var myChart1 = "chart1_covidUKRegions.json";
     var myChart2 = "chart2_ukProductivity.json";
+    var myChart3 = "chart3.json";
+    var myChart4 = "chart4.json";
+    var myChart5 = "IMF_outstanding_lending.json";
+    var myChart6 = "environmental_expenditure_chart.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
 </script>
 
 </html>
