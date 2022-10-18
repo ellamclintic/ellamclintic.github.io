@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+    "data": {
+      "values": [{"Year": 1995, "Total_Environmental_Expenditure_of_UK": 0.489669819}, {"Year": 1996, "Total_Environmental_Expenditure_of_UK": 0.438656659}, {"Year": 1997, "Total_Environmental_Expenditure_of_UK": 0.436811413}, {"Year": 1998, "Total_Environmental_Expenditure_of_UK": 0.464180752}, {"Year": 1999, "Total_Environmental_Expenditure_of_UK": 0.539266965}, {"Year": 2000, "Total_Environmental_Expenditure_of_UK": 0.591351843}, {"Year": 2001, "Total_Environmental_Expenditure_of_UK": 0.619864924}, {"Year": 2002, "Total_Environmental_Expenditure_of_UK": 0.668550729}, {"Year": 2003, "Total_Environmental_Expenditure_of_UK": 0.703508814}, {"Year": 2004, "Total_Environmental_Expenditure_of_UK": 0.693077915}, {"Year": 2005, "Total_Environmental_Expenditure_of_UK": 1.357547855}, {"Year": 2006, "Total_Environmental_Expenditure_of_UK": 0.85032931}, {"Year": 2007, "Total_Environmental_Expenditure_of_UK": 0.905395917}, {"Year": 2008, "Total_Environmental_Expenditure_of_UK": 0.849537639}, {"Year": 2009, "Total_Environmental_Expenditure_of_UK": 0.973206946}, {"Year": 2010, "Total_Environmental_Expenditure_of_UK": 0.956584036}, {"Year": 2011, "Total_Environmental_Expenditure_of_UK": 0.874089328}, {"Year": 2012, "Total_Environmental_Expenditure_of_UK": 0.818366926}, {"Year": 2013, "Total_Environmental_Expenditure_of_UK": 0.769649026}, {"Year": 2014, "Total_Environmental_Expenditure_of_UK": 0.797265908}, {"Year": 2015, "Total_Environmental_Expenditure_of_UK": 0.768132897}, {"Year": 2016, "Total_Environmental_Expenditure_of_UK": 0.720258172}, {"Year": 2017, "Total_Environmental_Expenditure_of_UK": 0.703242459}, {"Year": 2018, "Total_Environmental_Expenditure_of_UK": 0.664281312}, {"Year": 2019, "Total_Environmental_Expenditure_of_UK": 0.639697989}, {"Year": 2020, "Total_Environmental_Expenditure_of_UK": 0.716291671}]
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "nominal"},
+      "y": {"field": "Total_Environmental_Expenditure_of_UK", "type": "quantitative"}
+    }
+  }
+  
