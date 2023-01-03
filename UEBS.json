@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 500,
+    "height": 300,
+    "view": {"stroke": "transparent"},
+  
+     "title": {
+      "text": "Annual Unemployment Rate, by state, 2021 ",
+      "fontSize": 12,
+      "subtitle":["Rate given as percentage of population in state", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10, "anchor": "middle"
+    },
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/maps/geoUSStates.json",
+      "format": {"property": "features"}
+    },
+  
+    "transform": [{
+    "lookup": "properties.NAME",
+    "from": {
+      "key": "State",
+      "fields": ["Unemployment"],
+      "data": {"url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/UEBS.csv"}}}],
+  
+    "projection": {"type": "albersUsa"},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      "color":{
+        "field":"Unemployment",
+        "legend":{
+          "title": null,
+          "orient": "right",
+          "direction": "vertical"},
+          "type": "quantitative",
+          "scale":{
+            "scheme":"lightgreyred",
+            "reverse": false}},
+      "tooltip":[
+        {"field":"properties.NAME", "title": "State"},
+        {"field":"Unemployment", "title": "Unemployment rate:", "format": ",d"}
+      ]
+    }}
