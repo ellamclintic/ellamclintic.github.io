@@ -31,6 +31,10 @@
         <p>The first chart tracks Covid-19 cases by UK region.</p>
         <div class="chart" id="Chart1"></div>
 
+        <h3>Flexible Consumer Price Index - since 1968</h3>
+        <p>This shows the US CPI</p>
+        <div class="chart" id="Chart2"></div>
+
     </div>
     
 </body>
@@ -41,10 +45,12 @@
 <script>
     //Define charts:
     var myChart1 = "URBSBY.json";
+    var myChart2 = "CPI_US_PC.json";
    
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
 
 </script>
 
