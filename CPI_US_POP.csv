@@ -1,0 +1,469 @@
+﻿Date,Value,series
+2019-01-01,0.190659667,"Consumer Price Index, All items"
+2019-01-01,0.597169049,Food and non-alcoholic beverages
+2019-01-01,0.333519113,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-01-01,1.308011179,Clothing and footwear
+2019-01-01,0.211115898,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-01-01,0.884693878,"Furnishings, household equipment and routine household maintenance"
+2019-01-01,0.413987879,Health
+2019-01-01,-1.153046785,Transport
+2019-01-01,0.179453663,Communication
+2019-01-01,0.437681958,Recreation and culture
+2019-01-01,0.026920705,Education
+2019-01-01,0.755012863,Restaurants and hotels
+2019-01-01,0.460841313,Miscellaneous goods and services
+2019-02-01,0.422705314,"Consumer Price Index, All items"
+2019-02-01,0.280833592,Food and non-alcoholic beverages
+2019-02-01,0.461142363,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-02-01,2.828369842,Clothing and footwear
+2019-02-01,0.177995615,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-02-01,0.265002478,"Furnishings, household equipment and routine household maintenance"
+2019-02-01,0.042800367,Health
+2019-02-01,0.908145348,Transport
+2019-02-01,0.090671856,Communication
+2019-02-01,0.176268398,Recreation and culture
+2019-02-01,0.157139881,Education
+2019-02-01,0.880514143,Restaurants and hotels
+2019-02-01,0.419578039,Miscellaneous goods and services
+2019-03-01,0.564135836,"Consumer Price Index, All items"
+2019-03-01,0.204724105,Food and non-alcoholic beverages
+2019-03-01,0.4950104,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-03-01,0.148598783,Clothing and footwear
+2019-03-01,0.24978112,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-03-01,0.033289956,"Furnishings, household equipment and routine household maintenance"
+2019-03-01,0.059371016,Health
+2019-03-01,2.736492103,Transport
+2019-03-01,-0.275083409,Communication
+2019-03-01,0.287398457,Recreation and culture
+2019-03-01,0.131755732,Education
+2019-03-01,0.721145512,Restaurants and hotels
+2019-03-01,0.012712726,Miscellaneous goods and services
+2019-04-01,0.529500161,"Consumer Price Index, All items"
+2019-04-01,-0.289112041,Food and non-alcoholic beverages
+2019-04-01,-0.057641418,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-04-01,-0.405301786,Clothing and footwear
+2019-04-01,0.241452827,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-04-01,-0.417498639,"Furnishings, household equipment and routine household maintenance"
+2019-04-01,0.017451702,Health
+2019-04-01,3.08326321,Transport
+2019-04-01,0.237069204,Communication
+2019-04-01,-0.027292842,Recreation and culture
+2019-04-01,0.020776163,Education
+2019-04-01,0.555058346,Restaurants and hotels
+2019-04-01,0.160159991,Miscellaneous goods and services
+2019-05-01,0.212875859,"Consumer Price Index, All items"
+2019-05-01,0.120812634,Food and non-alcoholic beverages
+2019-05-01,0.318958361,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-05-01,-0.909890813,Clothing and footwear
+2019-05-01,0.219517403,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-05-01,-0.023291611,"Furnishings, household equipment and routine household maintenance"
+2019-05-01,0.142206557,Health
+2019-05-01,0.747237106,Transport
+2019-05-01,-0.00110518,Communication
+2019-05-01,-0.376354046,Recreation and culture
+2019-05-01,0.138478981,Education
+2019-05-01,0.526320294,Restaurants and hotels
+2019-05-01,0.164980202,Miscellaneous goods and services
+2019-06-01,0.019914718,"Consumer Price Index, All items"
+2019-06-01,-0.313733819,Food and non-alcoholic beverages
+2019-06-01,0.101045296,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-06-01,-0.761841335,Clothing and footwear
+2019-06-01,0.477278151,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-06-01,0.711066093,"Furnishings, household equipment and routine household maintenance"
+2019-06-01,-0.05488522,Health
+2019-06-01,-1.271476949,Transport
+2019-06-01,0.235405937,Communication
+2019-06-01,-0.195738767,Recreation and culture
+2019-06-01,0.141744669,Education
+2019-06-01,0.362664306,Restaurants and hotels
+2019-06-01,0.331950908,Miscellaneous goods and services
+2019-07-01,0.167094162,"Consumer Price Index, All items"
+2019-07-01,-0.015493967,Food and non-alcoholic beverages
+2019-07-01,0.586515368,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-07-01,-1.255757674,Clothing and footwear
+2019-07-01,0.253621959,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-07-01,0.067386122,"Furnishings, household equipment and routine household maintenance"
+2019-07-01,0.228378166,Health
+2019-07-01,0.189389954,Transport
+2019-07-01,0.030872705,Communication
+2019-07-01,0.1108093,Recreation and culture
+2019-07-01,0.125145644,Education
+2019-07-01,0.217151582,Restaurants and hotels
+2019-07-01,0.420090248,Miscellaneous goods and services
+2019-08-01,-0.005066824,"Consumer Price Index, All items"
+2019-08-01,-0.086198547,Food and non-alcoholic beverages
+2019-08-01,0.260403149,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-08-01,1.433396491,Clothing and footwear
+2019-08-01,0.223367261,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-08-01,-0.519629324,"Furnishings, household equipment and routine household maintenance"
+2019-08-01,0.447888402,Health
+2019-08-01,-1.279116171,Transport
+2019-08-01,0.014329332,Communication
+2019-08-01,0.351650504,Recreation and culture
+2019-08-01,0.76286527,Education
+2019-08-01,-0.322482352,Restaurants and hotels
+2019-08-01,0.333660287,Miscellaneous goods and services
+2019-09-01,0.078344858,"Consumer Price Index, All items"
+2019-09-01,0.160913524,Food and non-alcoholic beverages
+2019-09-01,0.106134212,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-09-01,2.895313896,Clothing and footwear
+2019-09-01,0.218648432,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-09-01,0.3788759,"Furnishings, household equipment and routine household maintenance"
+2019-09-01,-0.099567962,Health
+2019-09-01,-0.969107698,Transport
+2019-09-01,-0.02755246,Communication
+2019-09-01,-0.202051753,Recreation and culture
+2019-09-01,0.621070191,Education
+2019-09-01,0.140958689,Restaurants and hotels
+2019-09-01,0.252337464,Miscellaneous goods and services
+2019-10-01,0.228619055,"Consumer Price Index, All items"
+2019-10-01,0.33195583,Food and non-alcoholic beverages
+2019-10-01,0.3318565,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-10-01,-0.740952682,Clothing and footwear
+2019-10-01,0.147413111,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-10-01,0.12883485,"Furnishings, household equipment and routine household maintenance"
+2019-10-01,0.715870485,Health
+2019-10-01,0.528503754,Transport
+2019-10-01,0.197329982,Communication
+2019-10-01,0.377535651,Recreation and culture
+2019-10-01,0.231251222,Education
+2019-10-01,-0.672427097,Restaurants and hotels
+2019-10-01,0.722602369,Miscellaneous goods and services
+2019-11-01,-0.053624303,"Consumer Price Index, All items"
+2019-11-01,-0.265264782,Food and non-alcoholic beverages
+2019-11-01,0.165808985,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-11-01,-2.345807862,Clothing and footwear
+2019-11-01,0.230467074,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-11-01,-0.353839968,"Furnishings, household equipment and routine household maintenance"
+2019-11-01,0.086911626,Health
+2019-11-01,-0.415664904,Transport
+2019-11-01,0.623831005,Communication
+2019-11-01,0.208520092,Recreation and culture
+2019-11-01,-0.020357443,Education
+2019-11-01,-0.484898154,Restaurants and hotels
+2019-11-01,0.20355813,Miscellaneous goods and services
+2019-12-01,-0.090976953,"Consumer Price Index, All items"
+2019-12-01,-0.002901494,Food and non-alcoholic beverages
+2019-12-01,-0.230719089,"Alcoholic Beverages, Tobacco, and Narcotics"
+2019-12-01,-2.848999949,Clothing and footwear
+2019-12-01,0.234133078,"Housing, Water, Electricity, Gas and Other Fuels"
+2019-12-01,-0.269348721,"Furnishings, household equipment and routine household maintenance"
+2019-12-01,0.256209645,Health
+2019-12-01,-0.752178205,Transport
+2019-12-01,0.162918093,Communication
+2019-12-01,-0.004861827,Recreation and culture
+2019-12-01,-0.075507555,Education
+2019-12-01,-0.108947414,Restaurants and hotels
+2019-12-01,0.090011231,Miscellaneous goods and services
+2020-01-01,0.387976994,"Consumer Price Index, All items"
+2020-01-01,0.593856391,Food and non-alcoholic beverages
+2020-01-01,0.428118257,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-01-01,1.104289336,Clothing and footwear
+2020-01-01,0.3641935,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-01-01,0.617027948,"Furnishings, household equipment and routine household maintenance"
+2020-01-01,0.292430258,Health
+2020-01-01,-0.055138116,Transport
+2020-01-01,0.444294042,Communication
+2020-01-01,0.289778971,Recreation and culture
+2020-01-01,0.144336899,Education
+2020-01-01,0.780639454,Restaurants and hotels
+2020-01-01,0.695515862,Miscellaneous goods and services
+2020-02-01,0.274061813,"Consumer Price Index, All items"
+2020-02-01,0.380747265,Food and non-alcoholic beverages
+2020-02-01,0.533294528,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-02-01,2.957512953,Clothing and footwear
+2020-02-01,0.142646212,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-02-01,0.39307939,"Furnishings, household equipment and routine household maintenance"
+2020-02-01,0.173578452,Health
+2020-02-01,-0.358054606,Transport
+2020-02-01,-0.11411431,Communication
+2020-02-01,0.176467736,Recreation and culture
+2020-02-01,0.171259008,Education
+2020-02-01,0.938203013,Restaurants and hotels
+2020-02-01,0.688253802,Miscellaneous goods and services
+2020-03-01,-0.217645103,"Consumer Price Index, All items"
+2020-03-01,0.456887799,Food and non-alcoholic beverages
+2020-03-01,0.88978577,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-03-01,-0.405620307,Clothing and footwear
+2020-03-01,0.106624017,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-03-01,-0.223308165,"Furnishings, household equipment and routine household maintenance"
+2020-03-01,0.163888249,Health
+2020-03-01,-2.251582296,Transport
+2020-03-01,-0.204552378,Communication
+2020-03-01,0.306822691,Recreation and culture
+2020-03-01,0.030469226,Education
+2020-03-01,-0.280279942,Restaurants and hotels
+2020-03-01,0.341774624,Miscellaneous goods and services
+2020-04-01,-0.668694187,"Consumer Price Index, All items"
+2020-04-01,2.669743228,Food and non-alcoholic beverages
+2020-04-01,0.134189672,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-04-01,-4.164687573,Clothing and footwear
+2020-04-01,0.076554387,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-04-01,0.38137677,"Furnishings, household equipment and routine household maintenance"
+2020-04-01,0.156802591,Health
+2020-04-01,-4.5968969,Transport
+2020-04-01,0.154819014,Communication
+2020-04-01,-0.139915472,Recreation and culture
+2020-04-01,0.029613836,Education
+2020-04-01,-0.634942136,Restaurants and hotels
+2020-04-01,-1.986894605,Miscellaneous goods and services
+2020-05-01,0.001950162,"Consumer Price Index, All items"
+2020-05-01,0.848819176,Food and non-alcoholic beverages
+2020-05-01,-0.090182725,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-05-01,-3.099230201,Clothing and footwear
+2020-05-01,0.200385805,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-05-01,0.418920405,"Furnishings, household equipment and routine household maintenance"
+2020-05-01,0.310561649,Health
+2020-05-01,-0.230500582,Transport
+2020-05-01,-0.007620126,Communication
+2020-05-01,0.54691803,Recreation and culture
+2020-05-01,0.043138814,Education
+2020-05-01,0.513755527,Restaurants and hotels
+2020-05-01,-2.165351073,Miscellaneous goods and services
+2020-06-01,0.547204693,"Consumer Price Index, All items"
+2020-06-01,0.484377446,Food and non-alcoholic beverages
+2020-06-01,0.376241132,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-06-01,0.008705967,Clothing and footwear
+2020-06-01,0.3186484,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-06-01,0.459985265,"Furnishings, household equipment and routine household maintenance"
+2020-06-01,0.179822552,Health
+2020-06-01,1.766586544,Transport
+2020-06-01,-0.217734473,Communication
+2020-06-01,-0.519917351,Recreation and culture
+2020-06-01,0.117523716,Education
+2020-06-01,0.676420228,Restaurants and hotels
+2020-06-01,1.534154819,Miscellaneous goods and services
+2020-07-01,0.50582435,"Consumer Price Index, All items"
+2020-07-01,-0.985162987,Food and non-alcoholic beverages
+2020-07-01,0.511820619,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-07-01,-0.560397828,Clothing and footwear
+2020-07-01,0.203485727,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-07-01,0.233894945,"Furnishings, household equipment and routine household maintenance"
+2020-07-01,0.258242596,Health
+2020-07-01,1.842551825,Transport
+2020-07-01,1.990071464,Communication
+2020-07-01,-0.636628862,Recreation and culture
+2020-07-01,0.238149528,Education
+2020-07-01,0.459704307,Restaurants and hotels
+2020-07-01,2.73791179,Miscellaneous goods and services
+2020-08-01,0.315321052,"Consumer Price Index, All items"
+2020-08-01,-0.084224945,Food and non-alcoholic beverages
+2020-08-01,0.05100505,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-08-01,1.835113368,Clothing and footwear
+2020-08-01,0.145287645,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-08-01,0.635777567,"Furnishings, household equipment and routine household maintenance"
+2020-08-01,-0.025335484,Health
+2020-08-01,0.854508404,Transport
+2020-08-01,0.394741065,Communication
+2020-08-01,0.481260026,Recreation and culture
+2020-08-01,0.328573234,Education
+2020-08-01,0.105600161,Restaurants and hotels
+2020-08-01,0.304843443,Miscellaneous goods and services
+2020-09-01,0.139274694,"Consumer Price Index, All items"
+2020-09-01,-0.379794911,Food and non-alcoholic beverages
+2020-09-01,0.135386981,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-09-01,2.526299954,Clothing and footwear
+2020-09-01,0.171454478,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-09-01,-0.085479323,"Furnishings, household equipment and routine household maintenance"
+2020-09-01,0.070957333,Health
+2020-09-01,0.659730749,Transport
+2020-09-01,0.219503879,Communication
+2020-09-01,-0.012578616,Recreation and culture
+2020-09-01,0.246042743,Education
+2020-09-01,0.149861023,Restaurants and hotels
+2020-09-01,-1.12675601,Miscellaneous goods and services
+2020-10-01,0.041493776,"Consumer Price Index, All items"
+2020-10-01,0.224096408,Food and non-alcoholic beverages
+2020-10-01,0.410619351,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-10-01,-0.031442586,Clothing and footwear
+2020-10-01,0.142359882,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-10-01,-0.125870275,"Furnishings, household equipment and routine household maintenance"
+2020-10-01,-0.228759549,Health
+2020-10-01,0.359309328,Transport
+2020-10-01,0.128649499,Communication
+2020-10-01,0.284506034,Recreation and culture
+2020-10-01,0.085442879,Education
+2020-10-01,-0.578484071,Restaurants and hotels
+2020-10-01,-0.719400935,Miscellaneous goods and services
+2020-11-01,-0.061062722,"Consumer Price Index, All items"
+2020-11-01,-0.609552438,Food and non-alcoholic beverages
+2020-11-01,0.411433701,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-11-01,-1.938520895,Clothing and footwear
+2020-11-01,0.121614515,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-11-01,0.194950967,"Furnishings, household equipment and routine household maintenance"
+2020-11-01,-0.039765132,Health
+2020-11-01,-0.32266263,Transport
+2020-11-01,-0.058401911,Communication
+2020-11-01,0.467041715,Recreation and culture
+2020-11-01,-0.032641446,Education
+2020-11-01,-0.058857657,Restaurants and hotels
+2020-11-01,-0.030466717,Miscellaneous goods and services
+2020-12-01,0.094147847,"Consumer Price Index, All items"
+2020-12-01,0.323914606,Food and non-alcoholic beverages
+2020-12-01,0.06953297,"Alcoholic Beverages, Tobacco, and Narcotics"
+2020-12-01,-1.770498113,Clothing and footwear
+2020-12-01,0.186303798,"Housing, Water, Electricity, Gas and Other Fuels"
+2020-12-01,0.109078045,"Furnishings, household equipment and routine household maintenance"
+2020-12-01,-0.065173047,Health
+2020-12-01,0.27160357,Transport
+2020-12-01,-0.084997875,Communication
+2020-12-01,-0.085482399,Recreation and culture
+2020-12-01,0.005023401,Education
+2020-12-01,0.132928379,Restaurants and hotels
+2020-12-01,0.244631693,Miscellaneous goods and services
+2021-01-01,0.425378349,"Consumer Price Index, All items"
+2021-01-01,0.350782515,Food and non-alcoholic beverages
+2021-01-01,0.99511953,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-01-01,2.501170043,Clothing and footwear
+2021-01-01,0.192510916,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-01-01,0.386756059,"Furnishings, household equipment and routine household maintenance"
+2021-01-01,0.776657915,Health
+2021-01-01,1.126589276,Transport
+2021-01-01,0.08613356,Communication
+2021-01-01,-0.495068541,Recreation and culture
+2021-01-01,-0.070324077,Education
+2021-01-01,0.476394525,Restaurants and hotels
+2021-01-01,0.523401039,Miscellaneous goods and services
+2021-02-01,0.547438279,"Consumer Price Index, All items"
+2021-02-01,0.243854948,Food and non-alcoholic beverages
+2021-02-01,0.393142932,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-02-01,2.04512875,Clothing and footwear
+2021-02-01,0.293526074,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-02-01,0.041068967,"Furnishings, household equipment and routine household maintenance"
+2021-02-01,0.521065326,Health
+2021-02-01,1.690190119,Transport
+2021-02-01,0.104121291,Communication
+2021-02-01,0.62312218,Recreation and culture
+2021-02-01,0.066184664,Education
+2021-02-01,0.226615156,Restaurants and hotels
+2021-02-01,0.397250309,Miscellaneous goods and services
+2021-03-01,0.708327313,"Consumer Price Index, All items"
+2021-03-01,0.20348891,Food and non-alcoholic beverages
+2021-03-01,0.442185473,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-03-01,0.343388726,Clothing and footwear
+2021-03-01,0.183426405,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-03-01,0.377288411,"Furnishings, household equipment and routine household maintenance"
+2021-03-01,0.228247511,Health
+2021-03-01,3.404827178,Transport
+2021-03-01,-0.063681423,Communication
+2021-03-01,0.332194017,Recreation and culture
+2021-03-01,-0.281308083,Education
+2021-03-01,0.844339505,Restaurants and hotels
+2021-03-01,0.419288919,Miscellaneous goods and services
+2021-04-01,0.821890915,"Consumer Price Index, All items"
+2021-04-01,0.611073163,Food and non-alcoholic beverages
+2021-04-01,0.142143524,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-04-01,-0.099553048,Clothing and footwear
+2021-04-01,0.236797136,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-04-01,0.852037587,"Furnishings, household equipment and routine household maintenance"
+2021-04-01,0.084250918,Health
+2021-04-01,3.372772452,Transport
+2021-04-01,0.123195871,Communication
+2021-04-01,0.985627069,Recreation and culture
+2021-04-01,0.052054472,Education
+2021-04-01,1.15910614,Restaurants and hotels
+2021-04-01,0.045402215,Miscellaneous goods and services
+2021-05-01,0.801710515,"Consumer Price Index, All items"
+2021-05-01,0.305515799,Food and non-alcoholic beverages
+2021-05-01,0.197096277,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-05-01,0.159858826,Clothing and footwear
+2021-05-01,0.33527898,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-05-01,1.259051849,"Furnishings, household equipment and routine household maintenance"
+2021-05-01,0.008334653,Health
+2021-05-01,3.542332991,Transport
+2021-05-01,0.073190135,Communication
+2021-05-01,0.31459652,Recreation and culture
+2021-05-01,0.247549678,Education
+2021-05-01,0.797415556,Restaurants and hotels
+2021-05-01,-0.154783708,Miscellaneous goods and services
+2021-06-01,0.92906629,"Consumer Price Index, All items"
+2021-06-01,0.741797693,Food and non-alcoholic beverages
+2021-06-01,0.49298568,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-06-01,-0.451864979,Clothing and footwear
+2021-06-01,0.503260676,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-06-01,0,"Furnishings, household equipment and routine household maintenance"
+2021-06-01,-0.063338084,Health
+2021-06-01,3.757236663,Transport
+2021-06-01,0.040278131,Communication
+2021-06-01,0.23331822,Recreation and culture
+2021-06-01,0.235219273,Education
+2021-06-01,1.576534545,Restaurants and hotels
+2021-06-01,-0.155835302,Miscellaneous goods and services
+2021-07-01,0.481052353,"Consumer Price Index, All items"
+2021-07-01,0.617396041,Food and non-alcoholic beverages
+2021-07-01,0.283546262,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-07-01,-1.071283562,Clothing and footwear
+2021-07-01,0.33087525,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-07-01,-0.026698705,"Furnishings, household equipment and routine household maintenance"
+2021-07-01,0.370262269,Health
+2021-07-01,0.917465548,Transport
+2021-07-01,-0.018011909,Communication
+2021-07-01,0.575812121,Recreation and culture
+2021-07-01,0.226316141,Education
+2021-07-01,1.540882513,Restaurants and hotels
+2021-07-01,0.094297443,Miscellaneous goods and services
+2021-08-01,0.206591136,"Consumer Price Index, All items"
+2021-08-01,0.316729832,Food and non-alcoholic beverages
+2021-08-01,0.208845406,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-08-01,1.811121401,Clothing and footwear
+2021-08-01,0.369903793,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-08-01,0.912767297,"Furnishings, household equipment and routine household maintenance"
+2021-08-01,0.321538065,Health
+2021-08-01,-0.444357861,Transport
+2021-08-01,0.346526784,Communication
+2021-08-01,0.357939319,Recreation and culture
+2021-08-01,0.634920635,Education
+2021-08-01,-0.290283754,Restaurants and hotels
+2021-08-01,0.014618577,Miscellaneous goods and services
+2021-09-01,0.271597086,"Consumer Price Index, All items"
+2021-09-01,1.105504133,Food and non-alcoholic beverages
+2021-09-01,0.44327236,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-09-01,1.906041656,Clothing and footwear
+2021-09-01,0.48765669,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-09-01,1.18144098,"Furnishings, household equipment and routine household maintenance"
+2021-09-01,0.037268315,Health
+2021-09-01,-0.805091458,Transport
+2021-09-01,0.317872682,Communication
+2021-09-01,0.140984464,Recreation and culture
+2021-09-01,0.833768019,Education
+2021-09-01,0.150692713,Restaurants and hotels
+2021-09-01,-0.139668207,Miscellaneous goods and services
+2021-10-01,0.830811855,"Consumer Price Index, All items"
+2021-10-01,1.054270463,Food and non-alcoholic beverages
+2021-10-01,0.848316535,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-10-01,0.945338729,Clothing and footwear
+2021-10-01,0.620534933,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-10-01,0.665091123,"Furnishings, household equipment and routine household maintenance"
+2021-10-01,0.310453593,Health
+2021-10-01,2.2225771,Transport
+2021-10-01,0.138957607,Communication
+2021-10-01,0.845648222,Recreation and culture
+2021-10-01,0.182289956,Education
+2021-10-01,0.271784085,Restaurants and hotels
+2021-10-01,0.39844849,Miscellaneous goods and services
+2021-11-01,0.49134275,"Consumer Price Index, All items"
+2021-11-01,0.337192411,Food and non-alcoholic beverages
+2021-11-01,0.488248793,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-11-01,-1.132424312,Clothing and footwear
+2021-11-01,0.411929347,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-11-01,0.296014476,"Furnishings, household equipment and routine household maintenance"
+2021-11-01,0.037964445,Health
+2021-11-01,2.000569753,Transport
+2021-11-01,-0.01261498,Communication
+2021-11-01,-0.183058745,Recreation and culture
+2021-11-01,0.034424536,Education
+2021-11-01,0.276546934,Restaurants and hotels
+2021-11-01,0.261608365,Miscellaneous goods and services
+2021-12-01,0.307251716,"Consumer Price Index, All items"
+2021-12-01,0.431700126,Food and non-alcoholic beverages
+2021-12-01,0.130722042,"Alcoholic Beverages, Tobacco, and Narcotics"
+2021-12-01,-1.043762831,Clothing and footwear
+2021-12-01,0.359057945,"Housing, Water, Electricity, Gas and Other Fuels"
+2021-12-01,1.127826505,"Furnishings, household equipment and routine household maintenance"
+2021-12-01,0.023925024,Health
+2021-12-01,0.463980684,Transport
+2021-12-01,0.087264622,Communication
+2021-12-01,-0.049090438,Recreation and culture
+2021-12-01,-0.074560829,Education
+2021-12-01,0.508477232,Restaurants and hotels
+2021-12-01,0.425720979,Miscellaneous goods and services
