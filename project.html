@@ -35,6 +35,10 @@
         <p>This shows the US CPI</p>
         <div class="chart" id="Chart2"></div>
 
+        <h3>CPI - Monthly Moving Average</h3>
+        <p>This shows the US CPI</p>
+        <div class="chart" id="Chart3"></div>
+
     </div>
     
 </body>
@@ -46,11 +50,13 @@
     //Define charts:
     var myChart1 = "URBSBY.json";
     var myChart2 = "CPI_US_PC.json";
+    var myChart3 = "CPI_MMA.json";
    
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
 
 </script>
 
