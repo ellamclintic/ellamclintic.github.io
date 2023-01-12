@@ -9,7 +9,7 @@
       "color": "black"
     },
     "data": {
-      "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_IMF_creditOutstandingNEWCLEAN2.csv"
+      "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_IMF_creditOutstandingNEWCLEAN.csv"
     },
     "transform": [{"calculate": "datum.Totals/datum.World_GDP", "as": "billions"}],
     "height": 300,

@@ -5,6 +5,7 @@
 
 /* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 /* Set the background color for my page: */
@@ -17,20 +18,20 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
     color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins';
     text-align: center;
 }
     
 .myWeek1{
     margin: auto;
     max-width: 600px;
-    background-color: bisque;
+    background-color: rgb(196, 219, 255);
 }
 
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
     width:330px;
     border-width: 10px;
     border-style: solid;
