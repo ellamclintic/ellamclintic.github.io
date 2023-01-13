@@ -1,0 +1,48 @@
+{
+    "title": {
+      "text": "CPI Subgroup Weights",
+      "subtitle":"(2019-2020) Source: Scraped data from BLS",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  "height": 300,
+  "width": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/CPI_scraper1.csv"
+  },
+  "mark": {"type": "bar", "color": "#86d0bb"},
+  
+  "encoding": {
+  
+    "y": {"field": "Subgroup", "sort": "x", "title": ""},
+    "x": {"aggregate":"sum", "field": "CPI-W", "title": "CPI weights"},
+  
+    "color": {
+    "field": "Group", 
+    "type": "nominal",
+    "scale": {
+          "range": [
+            "#f53731",
+            "#ffb700",
+            "#f6ff00",
+            "#6fff00",
+            "#00ffea",
+            "#0077ff",
+            "#6a00ff",
+            "#e100ff",
+            ""
+          ]
+      },
+      "legend": {"orient": "top-right"}
+    },
+  
+    "tooltip": [
+      {"field": "Type"},
+      {"field": "Value", "title": "CPI Weights"},
+      {"field": "Category"}
+    ]
+  }
+    
+  }

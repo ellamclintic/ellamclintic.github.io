@@ -67,14 +67,21 @@
         <div class="chart" id="Chart8"> </div>
         <p>This shows new COVID-19 deaths instead of total deaths. The data is more variable and an area mark type shows the time trends better.</p>
 
+        <h2>Week 4</h2>
+
+        <h3>CPI Weights by Subgroup</h3>
+        <p>(2019 - 2020 Weights). Relative importance of components in the Consumer Price Indexes: U.S. city average, December 2021 </p>
+        <p> <a href="https://colab.research.google.com/drive/1iVXFREHZYDfblVG6MdRRd-iknLfg7HNc?usp=sharing" id="link6">link to BLS table scraper google sheet</a> </p>
+        <div class="chart" id="Chart9"> </div>
+
         <h3>Total Government Expenditure on Environmental Protection</h3>
         <p>The sixth chart shows yearly governmental expenditure on environmental protection, as a percentage of GDP, from the years 1995 to 2020 </p>
-        <div class="chart" id="Chart9"> </div>
+        <div class="chart" id="Chart10"> </div>
 
         <h3>Output per worker UK</h3>
         <p>This chart shows the quarterly output of a UK worker from the years 1995 to 2021, using Gross Value Added (GVA) as a measurement for this variable </p>
         <p> <a href="https://colab.research.google.com/drive/1fxkUxl5i-1J_6y1GK-1qDaDhM3QxbELO?usp=sharing" id="link5">link to google sheet</a> </p>
-        <div class="chart" id="Chart10"> </div>
+        <div class="chart" id="Chart11"> </div>
         
     </div>
     
@@ -93,8 +100,9 @@
     var myChart6 = 'IMF_lending_byGDP.json';
     var myChart7 = "COVID_OWID.json";
     var myChart8 = "COVID_OWID2.json";
-    var myChart9 = "environmental_expenditure_chart.json";
-    var myChart10 = "output_per_worker.json";
+    var myChart9 = "CPI_BSL_scraper.json";
+    var myChart10 = "environmental_expenditure_chart.json";
+    var myChart11 = "output_per_worker.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -107,6 +115,7 @@
     vegaEmbed('#Chart8', myChart8);
     vegaEmbed('#Chart9', myChart9);
     vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
 </script>
 
 </html>
