@@ -19,7 +19,9 @@
          },
   
   
-
+  "transform":[
+      {"calculate":"timeParse(datum.date5, '%d-%m-%Y')", "as": "date4"}],
+  
   
   "encoding": {     
         "x": {
@@ -64,7 +66,7 @@
               "scale": {"range": ["rgba(150,150,220)", "rgba(0,67,167)"]},
               "legend":{
                 "orient": "top",
-                "labelExpr": "{'net12_sh': 'Net price change (rhs)', 'inflation': 'CPI inflation (lhs)'}[datum.label]"}}}
+                "labelExpr": "{'net12_sh': 'Total deaths per million', 'inflation': 'People fully vaccinated'}[datum.label]"}}}
         }
   ],
   
