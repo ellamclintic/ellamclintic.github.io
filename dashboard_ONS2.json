@@ -1,0 +1,183 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
+    "config": {"view": {"continuousHeight": 180, "continuousWidth": 190}},
+    
+  "columns": 2,
+    "concat": [
+      {
+        "title": {
+            "text": "Gross Domestic Product",
+            "subtitle": ["Quarterly mean, chained volume measures", "Seasonally adjusted £m (ABMI)",""],
+            "subtitleFontStyle":"italic",
+            "subtitleFontSize":10,
+            "anchor": "start",
+            "color": "black"},
+        "data": {"url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-ABMI.json",
+    "format": {"type":"json", "property":"quarters"}},
+  
+    "mark": "line",
+    
+    "encoding": {
+      "x": {"field": "year", "type": "temporal"},
+      "y": {"aggregate":"mean","field": "value", "type": "quantitative","title":"GDP"}}
+      },
+      {
+          "data": {"name": "b",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-ihyp.json",
+      "format": {"type":"json", "property":"years"}},
+    
+            "title": {
+              "text": "Gross Domestic Product",
+              "subtitle": ["Year on Year growth: CVM SA % (IHYP)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "value", "title":"Growth Rate(%)","type": "quantitative"}}},
+        {
+          "data": {"name": "c",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-ikbl%20(1).json",
+      "format": {"type":"json", "property":"years"}},
+    
+            "title": {
+              "text": "Total Trade (TT)",
+              "subtitle": ["WW: Imports: BOP: CVM: SA (IKBL)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "value", "title":"Imports","type": "quantitative"}}},
+  
+        {
+          "data": {"name": "d",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgb3.json",
+      "format": {"type":"json", "property":"quarters"}},
+    
+            "title": {
+              "text": ["Household Final Consumption Expenditure:","Education"],
+              "subtitle": ["Mean of quarterly growth rate %: Current Price","Seasonally Adjusted (KGB3)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"aggregate":"mean","field": "value", "title":"Expenditure growth (%)","type": "quantitative"}}},
+  
+        {
+          "data": {"name": "e",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgd6.json",
+      "format": {"type":"json", "property":"quarters"}},
+    
+            "title": {
+              "text": ["Household Final Consumption Expenditure:","Restaurants & hotels"],
+              "subtitle": ["Mean of quarterly growth rate %: Chained Volume Measures:","Seasonally Adj (KGD6)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"aggregate":"mean","field": "value", "title":"Expenditure growth (%)","type": "quantitative"}}},
+  
+        {
+          "data": {"name": "f",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgg2.json",
+      "format": {"type":"json", "property":"quarters"}},
+    
+            "title": {
+              "text": ["Household Final Consumption Expenditure:", "Clothing & footwear"],
+              "subtitle": ["Mean of quarterly growth rate %: Chained Volume Measures:", "Seasonally Adj (KGG2)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"aggregate":"mean","field": "value", "title":"Expenditure growth (%)","type": "quantitative"}}},
+  
+  
+        {
+          "data": {"name": "g",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgj8.json",
+      "format": {"type":"json", "property":"quarters"}},
+    
+            "title": {
+              "text": ["Household Final Consumption Expenditure:", "Transport"],
+              "subtitle": ["Mean of quarterly growth rate %: Chained Volume Measures", "Seasonally Adj (KGJ8)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"aggregate":"mean","field": "value", "title":"Expenditure growth (%)","type": "quantitative"}}},
+  
+  
+  
+        {
+          "data": {"name": "h",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgl2.json",
+      "format": {"type":"json", "property":"quarters"}},
+    
+            "title": {
+              "text": ["Household Final Consumption Expenditure:","Recreation & culture"],
+              "subtitle": ["Mean of quarterly growth rate %: Chained Volume Measures","Seasonally Adj (KGL2)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"aggregate":"mean","field": "value", "title":"Expenditure growth (%)","type": "quantitative"}}},
+  
+  
+  
+        {
+          "data": {"name": "i",
+            "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/data_ONS-kgy7.json",
+      "format": {"type":"json", "property":"years"}},
+    
+            "title": {
+              "text": "Total household consumption",
+              "subtitle": ["Annual growth rate % (KGY7)"],
+              "subtitleFontStyle":"italic",
+              "subtitleFontSize":10,
+              "anchor": "start",
+              "color": "black"},
+    
+      "mark": "line",
+      
+      "encoding": {
+        "x": {"field": "year", "type": "temporal"},
+        "y": {"field": "value", "title":"Growth Rate (%)","type": "quantitative"}}}
+  
+      
+      
+    ]
+  }
