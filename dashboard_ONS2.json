@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
-    "config": {"view": {"continuousHeight": 180, "continuousWidth": 190}},
+    "config": {"view": {"continuousHeight": 190, "continuousWidth": 200}},
     
   "columns": 2,
     "concat": [
