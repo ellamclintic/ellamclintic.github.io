@@ -1,0 +1,88 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+"concat": [
+      {
+  "title": {
+    "text": "Africa base map",
+    "subtitle":["Mercator Projection",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "middle",
+    "color": "black"},
+
+  "config": {
+      "background":"white",
+      "view": {"stroke": "transparent"}},
+  
+  "width": 250,
+  "height": 250,
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json",
+        "format": {"type": "topojson", "feature": "continent_Africa_subunits"}},
+
+
+
+
+  "projection": {"type": "mercator"},
+  
+  "mark": "geoshape",
+
+"encoding": {"tooltip":{"field":"properties.geounit"}}},
+
+
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 250,
+    "height": 250,
+    "view": {"stroke": "transparent"},
+  
+     "title": {
+      "text": "Unemployment rate, 2022",
+      "fontSize": 12,
+      "subtitle":["By African nation, ILO Data, 2022", ""],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10, "anchor": "middle"
+    },
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json",
+      "format": {"type": "topojson", "feature": "continent_Africa_subunits"}
+    },
+  
+    "transform": [{
+    "lookup": "properties.geounit",
+    "from": {
+      "key": "ref_area",
+      "fields": ["value"],
+      "data": {"url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/ILO_unemployment2023.csv"}}}],
+  
+    "projection": {"type": "mercator"},
+
+    "mark": "geoshape", 
+  
+    "encoding":{
+      "color":{
+        "field":"value",
+        "legend":{
+          "title": "Unemployment Rate(%)",
+          "orient": "right",
+          "direction": "vertical"},
+          "type": "quantitative",
+          "scale":{
+            "scheme":"reds",
+            "reverse": false}},
+      "tooltip":[
+        {"field":"properties.geounit", "title": "State"},
+        {"field":"value", "title": "Offences:", "format": ",d"}
+      ]
+    }}
+
+
+
+
+
+
+
+]
+}
