@@ -3,7 +3,7 @@
 "concat": [
       {
   "title": {
-    "text": "Africa base map",
+    "text": "Map 1: Africa base map",
     "subtitle":["Mercator Projection",""],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
@@ -38,7 +38,7 @@
     "view": {"stroke": "transparent"},
   
      "title": {
-      "text": "Unemployment rate, 2022",
+      "text": "Map 2: Unemployment rate, 2022",
       "fontSize": 12,
       "subtitle":["By African nation, ILO Data, 2022", ""],
       "subtitleFontStyle":"italic",
