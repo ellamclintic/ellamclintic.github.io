@@ -1,0 +1,31 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Wales",
+    "subtitle":["Mercator Projection",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "middle",
+    "color": "black"},
+
+  "config": {
+      "background":"white",
+      "view": {"stroke": "transparent"}},
+  
+  "width": 300,
+  "height": 300,
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/africa.json",
+        "format": {"type": "topojson", "feature": "continent_Africa_subunits"}},
+
+  "projection": {"type": "mercator"},
+  
+  "mark": {
+      "type": "geoshape",
+      "fill": "lightgray",
+      "stroke": "white",
+      "strokeWidth":0.1},
+
+"encoding": {"tooltip":{"field":"properties.geounit"}}
+}
