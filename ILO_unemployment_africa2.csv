@@ -1,0 +1,757 @@
+﻿ref_area,year,value
+Angola,2010,9.43
+Angola,2011,7.36
+Angola,2012,8.064
+Angola,2013,8.834
+Angola,2014,9.58
+Angola,2015,9.584
+Angola,2016,9.586
+Angola,2017,9.535
+Angola,2018,9.522
+Angola,2019,9.481
+Angola,2020,10.35
+Angola,2021,10.384
+Angola,2022,10.209
+Angola,2023,10.076
+Burundi,2010,1.606
+Burundi,2011,1.602
+Burundi,2012,1.589
+Burundi,2013,1.576
+Burundi,2014,1.57
+Burundi,2015,1.477
+Burundi,2016,1.315
+Burundi,2017,1.166
+Burundi,2018,1.017
+Burundi,2019,0.871
+Burundi,2020,1.03
+Burundi,2021,1.132
+Burundi,2022,1.02
+Burundi,2023,1.003
+Benin,2010,1.04
+Benin,2011,2.65
+Benin,2012,2.454
+Benin,2013,2.254
+Benin,2014,2.111
+Benin,2015,2.023
+Benin,2016,1.836
+Benin,2017,1.643
+Benin,2018,1.47
+Benin,2019,1.466
+Benin,2020,1.671
+Benin,2021,1.752
+Benin,2022,1.654
+Benin,2023,1.619
+Burkina Faso,2010,3.626
+Burkina Faso,2011,3.78
+Burkina Faso,2012,3.912
+Burkina Faso,2013,4.052
+Burkina Faso,2014,4.206
+Burkina Faso,2015,4.344
+Burkina Faso,2016,4.44
+Burkina Faso,2017,4.566
+Burkina Faso,2018,4.69
+Burkina Faso,2019,4.693
+Burkina Faso,2020,5.055
+Burkina Faso,2021,5.232
+Burkina Faso,2022,5.175
+Burkina Faso,2023,5.191
+Botswana,2010,17.86
+Botswana,2011,18.152
+Botswana,2012,18.416
+Botswana,2013,18.538
+Botswana,2014,18.894
+Botswana,2015,19.299
+Botswana,2016,19.315
+Botswana,2017,19.603
+Botswana,2018,19.838
+Botswana,2019,20.09
+Botswana,2020,21.02
+Botswana,2021,21.155
+Botswana,2022,20.684
+Botswana,2023,20.808
+Central African Republic,2010,5.518
+Central African Republic,2011,5.457
+Central African Republic,2012,5.44
+Central African Republic,2013,5.452
+Central African Republic,2014,5.577
+Central African Republic,2015,5.737
+Central African Republic,2016,5.746
+Central African Republic,2017,5.762
+Central African Republic,2018,5.7
+Central African Republic,2019,5.755
+Central African Republic,2020,6.38
+Central African Republic,2021,6.458
+Central African Republic,2022,6.363
+Central African Republic,2023,6.318
+Ivory Coast,2010,6.776
+Ivory Coast,2011,7.215
+Ivory Coast,2012,7.22
+Ivory Coast,2013,4.25
+Ivory Coast,2014,3.475
+Ivory Coast,2015,2.697
+Ivory Coast,2016,1.9
+Ivory Coast,2017,3.27
+Ivory Coast,2018,2.835
+Ivory Coast,2019,2.4
+Ivory Coast,2020,2.66
+Ivory Coast,2021,2.817
+Ivory Coast,2022,2.637
+Ivory Coast,2023,2.625
+Cameroon,2010,4.11
+Cameroon,2011,3.967
+Cameroon,2012,3.817
+Cameroon,2013,3.675
+Cameroon,2014,3.53
+Cameroon,2015,3.546
+Cameroon,2016,3.572
+Cameroon,2017,3.598
+Cameroon,2018,3.609
+Cameroon,2019,3.629
+Cameroon,2020,3.947
+Cameroon,2021,4.122
+Cameroon,2022,4.001
+Cameroon,2023,4.022
+Democratic Republic of the Congo,2010,4.017
+Democratic Republic of the Congo,2011,4.254
+Democratic Republic of the Congo,2012,4.49
+Democratic Republic of the Congo,2013,4.468
+Democratic Republic of the Congo,2014,4.449
+Democratic Republic of the Congo,2015,4.457
+Democratic Republic of the Congo,2016,4.479
+Democratic Republic of the Congo,2017,4.459
+Democratic Republic of the Congo,2018,4.434
+Democratic Republic of the Congo,2019,4.436
+Democratic Republic of the Congo,2020,5.127
+Democratic Republic of the Congo,2021,5.112
+Democratic Republic of the Congo,2022,4.987
+Democratic Republic of the Congo,2023,4.955
+Republic of Congo,2010,20.019
+Republic of Congo,2011,20.19
+Republic of Congo,2012,20.122
+Republic of Congo,2013,20.34
+Republic of Congo,2014,20.274
+Republic of Congo,2015,20.485
+Republic of Congo,2016,20.648
+Republic of Congo,2017,20.592
+Republic of Congo,2018,20.644
+Republic of Congo,2019,20.612
+Republic of Congo,2020,22.517
+Republic of Congo,2021,22.235
+Republic of Congo,2022,21.795
+Republic of Congo,2023,21.57
+Comoros,2010,6.686
+Comoros,2011,7.037
+Comoros,2012,7.407
+Comoros,2013,7.74
+Comoros,2014,8.14
+Comoros,2015,8.14
+Comoros,2016,8.082
+Comoros,2017,8.056
+Comoros,2018,8.043
+Comoros,2019,8.063
+Comoros,2020,9.032
+Comoros,2021,8.979
+Comoros,2022,8.811
+Comoros,2023,8.878
+Cape Verde,2010,10.67
+Cape Verde,2011,10.874
+Cape Verde,2012,11.127
+Cape Verde,2013,11.357
+Cape Verde,2014,11.586
+Cape Verde,2015,11.81
+Cape Verde,2016,12.002
+Cape Verde,2017,12.24
+Cape Verde,2018,12.17
+Cape Verde,2019,12.207
+Cape Verde,2020,14.878
+Cape Verde,2021,13.91
+Cape Verde,2022,13.57
+Cape Verde,2023,13.505
+Djibouti,2010,27.194
+Djibouti,2011,26.971
+Djibouti,2012,26.873
+Djibouti,2013,26.714
+Djibouti,2014,26.51
+Djibouti,2015,26.337
+Djibouti,2016,26.197
+Djibouti,2017,26.06
+Djibouti,2018,26.149
+Djibouti,2019,26.315
+Djibouti,2020,28.048
+Djibouti,2021,27.954
+Djibouti,2022,27.929
+Djibouti,2023,27.953
+Algeria,2010,9.96
+Algeria,2011,9.96
+Algeria,2012,10.97
+Algeria,2013,9.82
+Algeria,2014,10.21
+Algeria,2015,11.21
+Algeria,2016,10.2
+Algeria,2017,10.334
+Algeria,2018,10.416
+Algeria,2019,10.495
+Algeria,2020,12.248
+Algeria,2021,11.747
+Algeria,2022,11.55
+Algeria,2023,11.628
+Egypt,2010,8.756
+Egypt,2011,11.849
+Egypt,2012,12.597
+Egypt,2013,13.154
+Egypt,2014,13.105
+Egypt,2015,13.052
+Egypt,2016,12.45
+Egypt,2017,11.767
+Egypt,2018,9.855
+Egypt,2019,7.851
+Egypt,2020,7.939
+Egypt,2021,7.4
+Egypt,2022,6.959
+Egypt,2023,6.952
+Eritrea,2010,5.892
+Eritrea,2011,5.782
+Eritrea,2012,5.693
+Eritrea,2013,5.63
+Eritrea,2014,5.678
+Eritrea,2015,5.797
+Eritrea,2016,5.807
+Eritrea,2017,5.807
+Eritrea,2018,5.697
+Eritrea,2019,5.704
+Eritrea,2020,7.28
+Eritrea,2021,6.802
+Eritrea,2022,6.618
+Eritrea,2023,6.666
+Western Sahara,2010,6.482
+Western Sahara,2011,6.691
+Western Sahara,2012,6.764
+Western Sahara,2013,6.753
+Western Sahara,2014,6.818
+Western Sahara,2015,7.067
+Western Sahara,2016,7.222
+Western Sahara,2017,7.508
+Western Sahara,2018,7.465
+Western Sahara,2019,7.236
+Western Sahara,2020,8.147
+Western Sahara,2021,8.087
+Western Sahara,2022,8.079
+Western Sahara,2023,8.285
+Ethiopia,2010,2.336
+Ethiopia,2011,2.311
+Ethiopia,2012,2.292
+Ethiopia,2013,2.25
+Ethiopia,2014,2.412
+Ethiopia,2015,2.573
+Ethiopia,2016,2.735
+Ethiopia,2017,2.896
+Ethiopia,2018,3.058
+Ethiopia,2019,3.219
+Ethiopia,2020,4.126
+Ethiopia,2021,3.93
+Ethiopia,2022,4.018
+Ethiopia,2023,4.038
+Gabon,2010,20.39
+Gabon,2011,20.418
+Gabon,2012,20.489
+Gabon,2013,20.507
+Gabon,2014,20.565
+Gabon,2015,20.601
+Gabon,2016,20.668
+Gabon,2017,20.732
+Gabon,2018,20.747
+Gabon,2019,20.695
+Gabon,2020,21.726
+Gabon,2021,21.836
+Gabon,2022,21.469
+Gabon,2023,21.428
+Ghana,2010,5.38
+Ghana,2011,4.223
+Ghana,2012,3.225
+Ghana,2013,2.17
+Ghana,2014,4.495
+Ghana,2015,6.81
+Ghana,2016,5.106
+Ghana,2017,3.37
+Ghana,2018,3.429
+Ghana,2019,3.463
+Ghana,2020,3.774
+Ghana,2021,3.919
+Ghana,2022,3.867
+Ghana,2023,3.921
+Guinea,2010,4.782
+Guinea,2011,4.795
+Guinea,2012,4.816
+Guinea,2013,4.883
+Guinea,2014,4.916
+Guinea,2015,4.942
+Guinea,2016,4.833
+Guinea,2017,4.871
+Guinea,2018,4.977
+Guinea,2019,5.02
+Guinea,2020,5.945
+Guinea,2021,5.82
+Guinea,2022,5.749
+Guinea,2023,5.706
+Gambia,2010,9.231
+Gambia,2011,9.607
+Gambia,2012,9.42
+Gambia,2013,8.592
+Gambia,2014,7.786
+Gambia,2015,6.814
+Gambia,2016,5.959
+Gambia,2017,5.038
+Gambia,2018,4.13
+Gambia,2019,4.18
+Gambia,2020,5.096
+Gambia,2021,4.981
+Gambia,2022,4.78
+Gambia,2023,4.734
+Guinea-Bissau,2010,3.104
+Guinea-Bissau,2011,3.093
+Guinea-Bissau,2012,3.16
+Guinea-Bissau,2013,3.14
+Guinea-Bissau,2014,3.163
+Guinea-Bissau,2015,3.142
+Guinea-Bissau,2016,3.151
+Guinea-Bissau,2017,3.162
+Guinea-Bissau,2018,3.2
+Guinea-Bissau,2019,3.175
+Guinea-Bissau,2020,3.605
+Guinea-Bissau,2021,3.687
+Guinea-Bissau,2022,3.583
+Guinea-Bissau,2023,3.627
+Equatorial Guinea,2010,8.398
+Equatorial Guinea,2011,8.299
+Equatorial Guinea,2012,8.191
+Equatorial Guinea,2013,8.084
+Equatorial Guinea,2014,8.097
+Equatorial Guinea,2015,8.205
+Equatorial Guinea,2016,8.227
+Equatorial Guinea,2017,8.263
+Equatorial Guinea,2018,8.2
+Equatorial Guinea,2019,8.277
+Equatorial Guinea,2020,9.295
+Equatorial Guinea,2021,9.147
+Equatorial Guinea,2022,8.689
+Equatorial Guinea,2023,8.578
+Kenya,2010,2.846
+Kenya,2011,2.859
+Kenya,2012,2.844
+Kenya,2013,2.831
+Kenya,2014,2.796
+Kenya,2015,2.774
+Kenya,2016,2.76
+Kenya,2017,3.52
+Kenya,2018,4.245
+Kenya,2019,5.01
+Kenya,2020,5.616
+Kenya,2021,5.644
+Kenya,2022,5.502
+Kenya,2023,5.475
+Liberia,2010,2.27
+Liberia,2011,2.212
+Liberia,2012,2.162
+Liberia,2013,2.11
+Liberia,2014,2.08
+Liberia,2015,2.577
+Liberia,2016,3.08
+Liberia,2017,3.042
+Liberia,2018,3.025
+Liberia,2019,3.017
+Liberia,2020,3.842
+Liberia,2021,3.672
+Liberia,2022,3.634
+Liberia,2023,3.602
+Libya,2010,19.308
+Libya,2011,19.446
+Libya,2012,19.03
+Libya,2013,19.46
+Libya,2014,19.611
+Libya,2015,19.521
+Libya,2016,19.516
+Libya,2017,19.291
+Libya,2018,19.446
+Libya,2019,19.612
+Libya,2020,20.343
+Libya,2021,20.606
+Libya,2022,20.68
+Libya,2023,20.516
+Lesotho,2010,16.867
+Lesotho,2011,16.872
+Lesotho,2012,16.813
+Lesotho,2013,16.916
+Lesotho,2014,16.904
+Lesotho,2015,16.852
+Lesotho,2016,16.825
+Lesotho,2017,16.985
+Lesotho,2018,16.918
+Lesotho,2019,16.88
+Lesotho,2020,18.461
+Lesotho,2021,18.293
+Lesotho,2022,18.039
+Lesotho,2023,17.876
+Morocco,2010,9.09
+Morocco,2011,8.91
+Morocco,2012,8.99
+Morocco,2013,9.23
+Morocco,2014,9.7
+Morocco,2015,9.46
+Morocco,2016,9.3
+Morocco,2017,9.225
+Morocco,2018,9.239
+Morocco,2019,9.242
+Morocco,2020,11.114
+Morocco,2021,10.542
+Morocco,2022,10.494
+Morocco,2023,10.466
+Madagascar,2010,4.28
+Madagascar,2011,2.438
+Madagascar,2012,0.6
+Madagascar,2013,0.998
+Madagascar,2014,1.391
+Madagascar,2015,1.79
+Madagascar,2016,1.8
+Madagascar,2017,1.815
+Madagascar,2018,1.833
+Madagascar,2019,1.841
+Madagascar,2020,2.363
+Madagascar,2021,2.31
+Madagascar,2022,2.142
+Madagascar,2023,2.107
+Mali,2010,1.333
+Mali,2011,1.352
+Mali,2012,1.385
+Mali,2013,1.372
+Mali,2014,1.349
+Mali,2015,1.361
+Mali,2016,1.37
+Mali,2017,1.494
+Mali,2018,1.62
+Mali,2019,1.619
+Mali,2020,3.53
+Mali,2021,2.603
+Mali,2022,2.762
+Mali,2023,2.87
+Mozambique,2010,3.229
+Mozambique,2011,3.263
+Mozambique,2012,3.304
+Mozambique,2013,3.347
+Mozambique,2014,3.384
+Mozambique,2015,3.43
+Mozambique,2016,3.454
+Mozambique,2017,3.453
+Mozambique,2018,3.455
+Mozambique,2019,3.465
+Mozambique,2020,3.776
+Mozambique,2021,3.939
+Mozambique,2022,3.906
+Mozambique,2023,3.873
+Mauritania,2010,9.895
+Mauritania,2011,9.869
+Mauritania,2012,9.86
+Mauritania,2013,9.967
+Mauritania,2014,10.066
+Mauritania,2015,10.152
+Mauritania,2016,10.308
+Mauritania,2017,10.34
+Mauritania,2018,10.391
+Mauritania,2019,10.402
+Mauritania,2020,11.137
+Mauritania,2021,11.287
+Mauritania,2022,11.109
+Mauritania,2023,11.193
+Mauritius,2010,7.65
+Mauritius,2011,7.45
+Mauritius,2012,7.47
+Mauritius,2013,7.32
+Mauritius,2014,7.47
+Mauritius,2015,7.41
+Mauritius,2016,6.81
+Mauritius,2017,6.75
+Mauritius,2018,6.43
+Mauritius,2019,6.33
+Mauritius,2020,8.63
+Mauritius,2021,7.656
+Mauritius,2022,7.234
+Mauritius,2023,7.109
+Malawi,2010,4.941
+Malawi,2011,4.968
+Malawi,2012,5.004
+Malawi,2013,4.98
+Malawi,2014,4.968
+Malawi,2015,4.987
+Malawi,2016,4.982
+Malawi,2017,4.96
+Malawi,2018,4.949
+Malawi,2019,4.932
+Malawi,2020,5.681
+Malawi,2021,5.658
+Malawi,2022,5.614
+Malawi,2023,5.631
+Namibia,2010,22.12
+Namibia,2011,19.46
+Namibia,2012,16.77
+Namibia,2013,19.03
+Namibia,2014,18.52
+Namibia,2015,20.895
+Namibia,2016,23.35
+Namibia,2017,21.656
+Namibia,2018,19.88
+Namibia,2019,20.002
+Namibia,2020,21.236
+Namibia,2021,21.268
+Namibia,2022,20.846
+Namibia,2023,20.593
+Niger,2010,0.771
+Niger,2011,0.32
+Niger,2012,2.18
+Niger,2013,1.381
+Niger,2014,0.52
+Niger,2015,0.532
+Niger,2016,0.534
+Niger,2017,0.542
+Niger,2018,0.542
+Niger,2019,0.552
+Niger,2020,0.68
+Niger,2021,0.668
+Niger,2022,0.534
+Niger,2023,0.527
+Nigeria,2010,3.755
+Nigeria,2011,3.77
+Nigeria,2012,3.75
+Nigeria,2013,3.7
+Nigeria,2014,3.944
+Nigeria,2015,4.221
+Nigeria,2016,4.509
+Nigeria,2017,4.729
+Nigeria,2018,4.963
+Nigeria,2019,5.206
+Nigeria,2020,5.999
+Nigeria,2021,5.936
+Nigeria,2022,5.761
+Nigeria,2023,5.812
+Rwanda,2010,11.895
+Rwanda,2011,11.877
+Rwanda,2012,11.858
+Rwanda,2013,11.906
+Rwanda,2014,11.876
+Rwanda,2015,11.828
+Rwanda,2016,11.86
+Rwanda,2017,11.88
+Rwanda,2018,12.1
+Rwanda,2019,12.43
+Rwanda,2020,13.01
+Rwanda,2021,13.315
+Rwanda,2022,13.009
+Rwanda,2023,12.707
+Sudan,2010,15.13
+Sudan,2011,17.44
+Sudan,2012,17.668
+Sudan,2013,17.405
+Sudan,2014,17.385
+Sudan,2015,17.444
+Sudan,2016,17.441
+Sudan,2017,17.501
+Sudan,2018,17.572
+Sudan,2019,17.586
+Sudan,2020,19.292
+Sudan,2021,19.05
+Sudan,2022,18.73
+Sudan,2023,18.484
+Senegal,2010,10.233
+Senegal,2011,10.36
+Senegal,2012,9.41
+Senegal,2013,8.589
+Senegal,2014,7.625
+Senegal,2015,6.76
+Senegal,2016,4.46
+Senegal,2017,4.08
+Senegal,2018,3.57
+Senegal,2019,2.86
+Senegal,2020,3.509
+Senegal,2021,3.498
+Senegal,2022,3.434
+Senegal,2023,3.407
+Sierra Leone,2010,4.175
+Sierra Leone,2011,4.295
+Sierra Leone,2012,4.375
+Sierra Leone,2013,4.469
+Sierra Leone,2014,4.68
+Sierra Leone,2015,4.437
+Sierra Leone,2016,3.927
+Sierra Leone,2017,3.561
+Sierra Leone,2018,3.19
+Sierra Leone,2019,3.193
+Sierra Leone,2020,3.572
+Sierra Leone,2021,3.697
+Sierra Leone,2022,3.635
+Sierra Leone,2023,3.655
+Somalia,2010,19.174
+Somalia,2011,19.173
+Somalia,2012,19.161
+Somalia,2013,19.066
+Somalia,2014,19.01
+Somalia,2015,18.877
+Somalia,2016,18.931
+Somalia,2017,18.975
+Somalia,2018,18.87
+Somalia,2019,18.828
+Somalia,2020,19.567
+Somalia,2021,19.931
+Somalia,2022,20.047
+Somalia,2023,20.429
+South Sudan,2010,12.138
+South Sudan,2011,12.203
+South Sudan,2012,12.342
+South Sudan,2013,12.036
+South Sudan,2014,12.139
+South Sudan,2015,12.29
+South Sudan,2016,12.326
+South Sudan,2017,12.26
+South Sudan,2018,12.229
+South Sudan,2019,12.199
+South Sudan,2020,13.745
+South Sudan,2021,13.485
+South Sudan,2022,12.975
+South Sudan,2023,12.702
+Sao Tome and Principe,2010,14.585
+Sao Tome and Principe,2011,14.105
+Sao Tome and Principe,2012,13.59
+Sao Tome and Principe,2013,13.617
+Sao Tome and Principe,2014,13.64
+Sao Tome and Principe,2015,13.78
+Sao Tome and Principe,2016,13.839
+Sao Tome and Principe,2017,13.911
+Sao Tome and Principe,2018,13.998
+Sao Tome and Principe,2019,14.078
+Sao Tome and Principe,2020,15.443
+Sao Tome and Principe,2021,15.34
+Sao Tome and Principe,2022,15.318
+Sao Tome and Principe,2023,15.52
+Eswatini,2010,26.39
+Eswatini,2011,25.811
+Eswatini,2012,25.106
+Eswatini,2013,24.524
+Eswatini,2014,23.973
+Eswatini,2015,23.317
+Eswatini,2016,22.72
+Eswatini,2017,22.731
+Eswatini,2018,22.756
+Eswatini,2019,22.782
+Eswatini,2020,25.08
+Eswatini,2021,24.56
+Eswatini,2022,24.389
+Eswatini,2023,24.664
+Chad,2010,0.952
+Chad,2011,1.005
+Chad,2012,1
+Chad,2013,1.027
+Chad,2014,1.042
+Chad,2015,1.072
+Chad,2016,1.118
+Chad,2017,1.127
+Chad,2018,1.13
+Chad,2019,1.12
+Chad,2020,1.645
+Chad,2021,1.538
+Chad,2022,1.412
+Chad,2023,1.349
+Togo,2010,2.427
+Togo,2011,1.98
+Togo,2012,2.034
+Togo,2013,2.09
+Togo,2014,2.145
+Togo,2015,2.2
+Togo,2016,2.965
+Togo,2017,3.74
+Togo,2018,3.723
+Togo,2019,3.707
+Togo,2020,4.028
+Togo,2021,4.175
+Togo,2022,4.066
+Togo,2023,4.035
+Tunisia,2010,13.05
+Tunisia,2011,18.33
+Tunisia,2012,17.63
+Tunisia,2013,15.93
+Tunisia,2014,14.26
+Tunisia,2015,15.16
+Tunisia,2016,15.56
+Tunisia,2017,15.33
+Tunisia,2018,15.46
+Tunisia,2019,15.13
+Tunisia,2020,16.373
+Tunisia,2021,16.264
+Tunisia,2022,16.124
+Tunisia,2023,16.135
+Tanzania,2010,2.99
+Tanzania,2011,3.47
+Tanzania,2012,3.256
+Tanzania,2013,2.93
+Tanzania,2014,2.12
+Tanzania,2015,2.144
+Tanzania,2016,2.151
+Tanzania,2017,2.168
+Tanzania,2018,2.203
+Tanzania,2019,2.214
+Tanzania,2020,2.78
+Tanzania,2021,2.74
+Tanzania,2022,2.762
+Tanzania,2023,2.868
+Uganda,2010,3.587
+Uganda,2011,3.491
+Uganda,2012,3.55
+Uganda,2013,1.91
+Uganda,2014,2.323
+Uganda,2015,2.749
+Uganda,2016,3.183
+Uganda,2017,3.64
+Uganda,2018,3.571
+Uganda,2019,3.554
+Uganda,2020,4.511
+Uganda,2021,4.295
+Uganda,2022,4.28
+Uganda,2023,4.263
+South Africa,2010,23.18
+South Africa,2011,21.42
+South Africa,2012,21.79
+South Africa,2013,22.04
+South Africa,2014,22.61
+South Africa,2015,22.87
+South Africa,2016,24.02
+South Africa,2017,23.99
+South Africa,2018,24.22
+South Africa,2019,25.54
+South Africa,2020,24.34
+South Africa,2021,28.77
+South Africa,2022,29.806
+South Africa,2023,29.947
+Zambia,2010,13.19
+Zambia,2011,10.585
+Zambia,2012,7.85
+Zambia,2013,8.005
+Zambia,2014,8.133
+Zambia,2015,8.28
+Zambia,2016,8.393
+Zambia,2017,8.52
+Zambia,2018,5.03
+Zambia,2019,5.54
+Zambia,2020,6.03
+Zambia,2021,6.22
+Zambia,2022,6.131
+Zambia,2023,6.133
+Zimbabwe,2010,5.189
+Zimbabwe,2011,5.37
+Zimbabwe,2012,5.139
+Zimbabwe,2013,4.994
+Zimbabwe,2014,4.77
+Zimbabwe,2015,5.282
+Zimbabwe,2016,5.796
+Zimbabwe,2017,6.279
+Zimbabwe,2018,6.784
+Zimbabwe,2019,7.37
+Zimbabwe,2020,7.898
+Zimbabwe,2021,8.067
+Zimbabwe,2022,7.945
+Zimbabwe,2023,8.013
