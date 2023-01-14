@@ -1,55 +1,55 @@
-﻿ref_area,value
-Algeria,11.628
-Angola,10.076
-Benin,1.619
-Botswana,20.808
-Burkina Faso,5.191
-Burundi,1.003
-Cameroon,4.022
-Cape Verde,13.505
-Central African Republic,6.318
-Chad,1.349
-Comoros,8.878
-Democratic Republic of the Congo,4.955
-Djibouti,27.953
-Egypt,6.952
-Equatorial Guinea,8.578
-Eritrea,6.666
-Eswatini,24.664
-Ethiopia,4.038
-Gabon,21.428
-Gambia,4.734
-Ghana,3.921
-Guinea,5.706
-Guinea-Bissau,3.627
-Ivory Coast,2.625
-Kenya,5.475
-Lesotho,17.876
-Liberia,3.602
-Libya,20.516
-Madagascar,2.107
-Malawi,5.631
-Mali,2.87
-Mauritania,11.193
-Mauritius,7.109
-Morocco,10.466
-Mozambique,3.873
-Namibia,20.593
-Niger,0.527
-Nigeria,5.812
-Republic of Congo,21.57
-Rwanda,12.707
-Sao Tome and Principe,15.52
-Senegal,3.407
-Sierra Leone,3.655
-Somalia,20.429
-South Africa,29.947
-South Sudan,12.702
-Sudan,18.484
-Tanzania,2.868
-Togo,4.035
-Tunisia,16.135
-Uganda,4.263
-Western Sahara,8.285
-Zambia,6.133
-Zimbabwe,8.013
+﻿ref_area,value,percent
+Algeria,11.628,12%
+Angola,10.076,10%
+Benin,1.619,2%
+Botswana,20.808,21%
+Burkina Faso,5.191,5%
+Burundi,1.003,1%
+Cameroon,4.022,4%
+Cape Verde,13.505,14%
+Central African Republic,6.318,6%
+Chad,1.349,1%
+Comoros,8.878,9%
+Democratic Republic of the Congo,4.955,5%
+Djibouti,27.953,28%
+Egypt,6.952,7%
+Equatorial Guinea,8.578,9%
+Eritrea,6.666,7%
+Eswatini,24.664,25%
+Ethiopia,4.038,4%
+Gabon,21.428,21%
+Gambia,4.734,5%
+Ghana,3.921,4%
+Guinea,5.706,6%
+Guinea-Bissau,3.627,4%
+Ivory Coast,2.625,3%
+Kenya,5.475,5%
+Lesotho,17.876,18%
+Liberia,3.602,4%
+Libya,20.516,21%
+Madagascar,2.107,2%
+Malawi,5.631,6%
+Mali,2.87,3%
+Mauritania,11.193,11%
+Mauritius,7.109,7%
+Morocco,10.466,10%
+Mozambique,3.873,4%
+Namibia,20.593,21%
+Niger,0.527,1%
+Nigeria,5.812,6%
+Republic of Congo,21.57,22%
+Rwanda,12.707,13%
+Sao Tome and Principe,15.52,16%
+Senegal,3.407,3%
+Sierra Leone,3.655,4%
+Somalia,20.429,20%
+South Africa,29.947,30%
+South Sudan,12.702,13%
+Sudan,18.484,18%
+Tanzania,2.868,3%
+Togo,4.035,4%
+Tunisia,16.135,16%
+Uganda,4.263,4%
+Western Sahara,8.285,8%
+Zambia,6.133,6%
+Zimbabwe,8.013,8%
