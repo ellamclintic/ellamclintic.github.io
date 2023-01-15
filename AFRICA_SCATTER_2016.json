@@ -1,0 +1,137 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+
+
+    "title": {
+      "text": ["Extent of Chinese Economic Influence in Africa vs Is Influence","Positive or Negative"],
+      "subtitle":["Extent of Economic Influence, (x), Viewed as Positive or Negative, (y). Mean value of sample answers.","Source: Survey Afrobarometer, Merged Round 6 data (36 countries) (2016)", "-------------------------------------------------","(X Scale): 0=None, 1=A little, 2=Some, 3=A lot","(Y Scale): 1=Very negative, 2=Somewhat negative, 3=Neither, 4=Somewhat positive, 5=Very positive"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "orient":"top",
+      "anchor": "start",
+      "color": "black"
+    },
+
+    
+
+    
+
+    
+
+  "config": {
+    "background":"white",
+    "view": {
+      "stroke": "transparent"}},
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/INFLUENCE_POSNEG_CHINA.csv",
+      "format":{"type":"csv"}},
+  
+    "layer":[
+      {"mark": {
+      "type":"circle",
+      "color":"green",
+      "opacity":0.7},
+    
+    "height": 390,
+    "width": 460,
+  
+    "encoding": {
+      "x": {
+        "field": "influence", 
+        "type": "quantitative",
+        "scale": {"domain": [1.6, 2.8]},
+        "axis":{"grid": false},
+        "title":"Economic Influence"},
+  
+      "y": {
+        "field": "posneg", 
+        "type": "quantitative",
+        "scale": {"domain": [2.6, 4.8]},
+        "axis":{"grid": false},
+        "title":"Positive/Negative"},
+  
+      "size": {
+        "field": "count", 
+        "type": "quantitative",
+        "title":"Prison Rate",
+        "scale": { "range": [10, 800]},
+        "legend":null},
+
+
+
+        "color": {
+        "field": "count", 
+        "type": "quantitative",
+        "title":"Gini",
+        "scale": { "scheme": "oranges"}},
+
+
+
+
+
+      "tooltip":[
+        {"field":"country", "type": "ordinal", "title":"Country"},
+        {"field":"influence", "type": "quantitative", "title":"Influence score (1-5)", "format":".2f"},
+        {"field":"posneg", "type": "quantitative", "title":"Positive/Negative (1-5)", "format":".2f"},
+        {"field":"count", "type": "quantitative", "title":"Sample size", "format":","}
+
+      ]
+     }},
+
+
+     {
+      "mark": {
+        "type": "line",
+        "color": "black"
+      },
+      "transform": [
+        {
+          "regression": "posneg",
+          "on": "influence"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "influence",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "posneg",
+          "type": "quantitative"
+        }
+      }
+    },
+
+
+    {
+      "transform": [
+        {
+          "regression": "posneg",
+          "on": "influence",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "black",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+     
+
+     ]
+
+     
+    
+    
+
+     
+  }
