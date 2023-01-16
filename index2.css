@@ -11,11 +11,12 @@
 /* Set the background color for my page: */
 body{
     background-color: rgb(179, 222, 255);
+
  
 }
 
 .wrap{background-color:rgb(255, 255, 255);
-    border-width: 4px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(47, 117, 202)
@@ -181,7 +182,6 @@ h1, h2, h3, p{
 /* Set the apperance of the class, chart */
 .chart{
     background-color: rgb(255, 255, 255);
-    width:330px;
     border-width: 4px;
     border-style: solid;
     border-radius: 5px;
