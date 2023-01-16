@@ -97,16 +97,20 @@
         <p>This chart is a scatterplot of the mean answers, by country, to a survey conducted by Afrobarometer. Sample size for each country is shown by the bubble size and an orange gradient scale; the larger the sample size, the darker the shade of orange. The 'Positive/Negative' score is regressed on the 'Extent of Economic Influence' score, producing a linear regression line and an R^2 value of 0.46. A tooltip is added so readers can see the Country pertaining to each bubble, and the actual values of x and y.</p>
         <div class="chart" id="Chart12"> </div>
 
+        <h3>Dashboard: Distributions of Positive/Negative Scores in Survey (by Country, 2016)</h3>
+        <p>Histograms showing the binned answers to the survey, by Country</p>
+        <div class="chart" id="Chart13"> </div>
+
 
 
         <h3>Total Government Expenditure on Environmental Protection</h3>
         <p>The sixth chart shows yearly governmental expenditure on environmental protection, as a percentage of GDP, from the years 1995 to 2020 </p>
-        <div class="chart" id="Chart13"> </div>
+        <div class="chart" id="Chart14"> </div>
 
         <h3>Output per worker UK</h3>
         <p>This chart shows the quarterly output of a UK worker from the years 1995 to 2021, using Gross Value Added (GVA) as a measurement for this variable </p>
         <p> <a href="https://colab.research.google.com/drive/1fxkUxl5i-1J_6y1GK-1qDaDhM3QxbELO?usp=sharing" id="link5">link to google sheet</a> </p>
-        <div class="chart" id="Chart14"> </div>
+        <div class="chart" id="Chart15"> </div>
         
     </div>
     
@@ -129,8 +133,9 @@
     var myChart10 = "dashboard_ONS2.json";
     var myChart11 = "GEOJSON_africa2.json";
     var myChart12 = "AFRICA_SCATTER_2016.json";
-    var myChart13 = "environmental_expenditure_chart.json";
-    var myChart14 = "output_per_worker.json";
+    var myChart13 = "AFRICA_DISTRIBUTIONS.json";
+    var myChart14 = "environmental_expenditure_chart.json";
+    var myChart15 = "output_per_worker.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -147,8 +152,11 @@
     vegaEmbed('#Chart12', myChart12);
     vegaEmbed('#Chart13', myChart13);
     vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
 </script>
 
 </html>
+
+
 
 
