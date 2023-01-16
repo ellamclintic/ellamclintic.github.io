@@ -1,0 +1,11 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/HISTOGRAM_DATA_AFRICA.csv"},
+    "mark": "bar",
+  
+    "encoding": {
+      "facet": {"field": "COUNTRY", "type": "nominal", "columns": 5, "title":"Distributions of Positive/Negative Scores in Survey (by Country, 2016)"},
+      "x": {"field": "posneg", "type": "ordinal", "title":"positive/negative score (binned)"},
+      "y": {"aggregate": "count"}
+    }
+  }
