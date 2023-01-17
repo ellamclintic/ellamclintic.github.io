@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 500,
+    "height": 400,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Chinese FDI Flow to African Countries",
+        "fontSize": 12,
+        "subtitle":["US$ mn, unadjusted, 2003-2021", ""],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2015,
+       "bind":{
+         "input": "range",
+         "min": 2003, 
+         "max": 2020, 
+         "step": 1,
+         "name": "Year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/FDI_cari_data_clean.csv",
+        "format": {"type": "csv"}},
+  
+    "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/custom.geo%20(2).json",
+                    "format":{"property":"features"}},
+            "key": "properties.geounit",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+  
+    "projection": {"type": "mercator"},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"value",
+            "legend":{
+                "title":"FDI, US$ mn",
+                "orient": "right",
+                "direction": "vertical"},
+            "type": "quantitative",
+            "scale":{"scheme":"oranges"}},
+            "tooltip":[
+        {"field":"properties.geounit", "title": "Country"},
+        {"field":"value", "title": "FDI", "format": ""}
+      
+    ]
+    }
+  }
