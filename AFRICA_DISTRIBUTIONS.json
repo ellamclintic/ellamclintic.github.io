@@ -5,7 +5,7 @@
   
     "encoding": {
       "facet": {"field": "COUNTRY", "type": "nominal", "columns": 5, "title":"Distributions of Positive/Negative Scores in Survey (by Country, 2016)"},
-      "x": {"field": "posneg", "type": "ordinal", "title":"positive/negative score (binned)"},
+      "x": {"field": "posneg", "type": "ordinal", "title":""},
       "y": {"aggregate": "count"}
     }
   }
