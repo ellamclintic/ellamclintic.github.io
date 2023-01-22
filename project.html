@@ -26,6 +26,10 @@
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
         <h1>My Data Science Project.</h1>
+
+        <h3>GDP growth rate (current US$)</h3>
+        <p>The first chart tracks Covid-19 cases by UK region.</p>
+        <div class="chart" id="Chart5"></div>
         
         <h3>Interactive Unemployment Rate Map</h3>
         <p>The first chart tracks Covid-19 cases by UK region.</p>
@@ -57,6 +61,8 @@
     var myChart2 = "AFRICA_DISTRIBUTIONS.json";
     var myChart3 = "AFRICA_SCATTER_FDI.json";
     var myChart4 = "AFRICA_FDI_GEO.json";
+    var myChart5 = "GDP_BY2000.json";
+
    
 
     // Embed charts:
@@ -64,6 +70,7 @@
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
 
 </script>
 

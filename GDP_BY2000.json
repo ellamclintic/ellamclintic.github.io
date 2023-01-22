@@ -1,0 +1,172 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "GDP growth rate - by Country",
+  
+  "title": {
+      "text": "GDP growth rate (current US$) - by Country",
+      "subtitle":["Base year set as 2000, Index = 100.", "Source: World Bank"],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/GDP_base_2000_clean.csv"
+    },
+  
+      "selection": {
+      "Energy source": {
+        "type": "single",
+        "fields": ["country"],
+        "bind": {
+          "input": "select",
+          "options": [null, "Angola",
+  "Burundi",
+  "Benin",
+  "Burkina Faso",
+  "Botswana",
+  "Central African Republic",
+  "Cote d'Ivoire",
+  "Cameroon",
+  "Congo, Dem. Rep.",
+  "Congo, Rep.",
+  "Comoros",
+  "Cabo Verde",
+  "Djibouti",
+  "Algeria",
+  "Ethiopia",
+  "Gabon",
+  "Ghana",
+  "Guinea",
+  "Gambia, The",
+  "Guinea-Bissau",
+  "Equatorial Guinea",
+  "Kenya",
+  "Liberia",
+  "Libya",
+  "Lesotho",
+  "Morocco",
+  "Madagascar",
+  "Mali",
+  "Mozambique",
+  "Mauritania",
+  "Mauritius",
+  "Malawi",
+  "Namibia",
+  "Niger",
+  "Nigeria",
+  "Rwanda",
+  "Sudan",
+  "Senegal",
+  "Sierra Leone",
+  "Eswatini",
+  "Seychelles",
+  "Chad",
+  "Togo",
+  "Tunisia",
+  "Tanzania",
+  "Uganda",
+  "South Africa",
+  "Zambia",
+  "Zimbabwe"
+  ],
+          "name": "Pick a Country"
+        }
+      }
+    },
+    
+       "transform":[
+  
+          
+          {"filter": {
+            "field": "country", 
+            "oneOf": ["Angola",
+  "Burundi",
+  "Benin",
+  "Burkina Faso",
+  "Botswana",
+  "Central African Republic",
+  "Cote d'Ivoire",
+  "Cameroon",
+  "Congo, Dem. Rep.",
+  "Congo, Rep.",
+  "Comoros",
+  "Cabo Verde",
+  "Djibouti",
+  "Algeria",
+  "Ethiopia",
+  "Gabon",
+  "Ghana",
+  "Guinea",
+  "Gambia, The",
+  "Guinea-Bissau",
+  "Equatorial Guinea",
+  "Kenya",
+  "Liberia",
+  "Libya",
+  "Lesotho",
+  "Morocco",
+  "Madagascar",
+  "Mali",
+  "Mozambique",
+  "Mauritania",
+  "Mauritius",
+  "Malawi",
+  "Namibia",
+  "Niger",
+  "Nigeria",
+  "Rwanda",
+  "Sudan",
+  "Senegal",
+  "Sierra Leone",
+  "Eswatini",
+  "Seychelles",
+  "Chad",
+  "Togo",
+  "Tunisia",
+  "Tanzania",
+  "Uganda",
+  "South Africa",
+  "Zambia",
+  "Zimbabwe"]}
+            },
+  
+          {"filter": {"selection": "Energy source"}}
+    
+    
+        ],   
+  
+  
+  
+  
+  
+    "height": 450,
+    "width": 630
+    ,
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "year", "type": "temporal", "title": "", "axis": {"grid": false}},
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": false}
+        
+        
+      },
+      "color": {
+        "field": "country",
+        "title": null,
+        "legend": null,
+        "type": "nominal",
+        "sort": [],
+        "scale": {"scheme": "yellowgreenblue"}
+      },
+      "tooltip": [
+        {"field": "country", "title":"Country"},
+        {"field": "year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+        {"field": "value", "type": "quantitative", "title": "GDP growth rate"}
+      ]
+    }
+  }
