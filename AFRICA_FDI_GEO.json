@@ -8,7 +8,7 @@
     "title": {
         "text": "Chinese FDI Flow to African Countries",
         "fontSize": 12,
-        "subtitle":["US$ mn, unadjusted, 2003-2021", ""],
+        "subtitle":["US$ mn, unadjusted, 2003-2021. Source: China Africa Research Initiative", ""],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10, "anchor": "middle"},
   
