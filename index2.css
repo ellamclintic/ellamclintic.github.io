@@ -171,7 +171,8 @@ h1, h2, h3, p{
 }
     
 .myWeek1{
-    margin: auto;
+    margin: 20px;
+    width: 800px;
     max-width: 900px;
     background-color: rgb(255, 255, 255);
 
