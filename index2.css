@@ -171,6 +171,7 @@ h1, h2, h3, p{
 }
     
 .myWeek1{
+    align-items: center;
     margin: 20px;
     width: 800px;
     max-width: 900px;
@@ -185,6 +186,7 @@ h1, h2, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
+    align-items: center;
     background-color: rgb(255, 255, 255);
     border-width: 4px;
     border-style: solid;
