@@ -24,7 +24,8 @@ body{
 
 }
 
-a{border-width: 100px;
+a{border-width: 50px;
+width: fit-content;
 border-style: solid;
 border-radius: 5px;
 border-color: black;
