@@ -16,7 +16,7 @@ body{
 }
 
 .wrap{background-color:rgb(255, 255, 255);
-    width: 100px;
+    width: 500px;
     border-width: 20px;
     border-style: solid;
     border-radius: 10px;
