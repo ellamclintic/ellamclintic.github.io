@@ -17,7 +17,7 @@ body{
 }
 
 .wrap{background-color:rgb(255, 255, 255);
-    width: 500px;
+    width: 700px;
     border-width: 10px;
     border-style: solid;
     border-radius: 10px;
@@ -173,9 +173,8 @@ h1, h2, h3, p{
 .myWeek1{
    
     margin: auto;
-    width: 800px;
     background-color: rgb(255, 255, 255);
-
+    width: 800px;
     border-width: 4px;
     border-style: solid;
     border-radius: 10px;
