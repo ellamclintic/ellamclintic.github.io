@@ -11,7 +11,7 @@
 /* Set the background color for my page: */
 body{
     background-color: rgb(179, 222, 255);
-    width: fit-content;
+    
 
  
 }
@@ -173,7 +173,7 @@ h1, h2, h3, p{
 .myWeek1{
     align-items: center;
     align-content: center;
-    margin: 5px 5px;
+    margin: auto;
     width: 800px;
     max-width: 900px;
     background-color: rgb(255, 255, 255);
