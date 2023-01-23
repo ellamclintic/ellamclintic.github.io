@@ -82,11 +82,8 @@
       "tooltip": [
         {"field": "Sector"},
         {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
-        {"field": "Value", "type": "quantitative", "title": "CO2 Emissions (millon tonnes)"},
-        {"field": "Value_2", 
-          "type": "quantitative", 
-          "title": "Share of annual total(%)",
-          "format":".3"}
+        {"field": "Value", "type": "quantitative", "title": "FDI stock"}
+        
         
       ]
     }
