@@ -1,0 +1,94 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "data": {
+      "url": "https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/AFRICA_SECTOR_CLEAN.csv"
+    },
+    
+    "mark": {"type":"bar", "size":8},
+    "width": 320,
+    "height": 500,
+    
+    "title": {
+      "text": "Chinese FDI Stock to Africa, top 5 sectors",
+      "subtitle": "End of the year FDI Stock. 100mn US$. Source: China Africa Research Initiative ",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+      "transform": [
+      
+      {"filter": {"selection": "SectorSelector"}},
+      
+      {"filter": {
+        "field": "Sector",
+        "oneOf":[
+          "Construction",
+  "Mining",
+  "Manufacturing",
+  "Financial Intermediation",
+  "Scientific Research and Technological Service",
+  "Leasing and Commercial Service",
+  "Other"
+  
+        ]}
+      }
+    ],
+  
+   "selection": {
+    "SectorSelector": {
+      "type": "single",
+      "fields": ["Sector"],
+      "bind": {
+        "input": "select",
+        "options": [
+           null,
+          "Construction",
+  "Mining",
+  "Manufacturing",
+  "Financial Intermediation",
+  "Scientific Research and Technological Service",
+  "Leasing and Commercial Service",
+  "Other"
+        ],
+        "name": "Choose sector"
+      }
+    }
+  },
+  
+    
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal", "title": null, "axis": {"grid": false}},
+      "y": {
+        "field": "Value",
+        "title": "FDI Stock (100mn US$)",
+        "type": "quantitative",
+        "xxscale": {"domain": [0,500]},
+        "axis": {"grid": false}
+        
+      },
+      "color": {
+        "field": "Sector",
+        "type": "nominal",
+        "legend": {
+          "orient": "top-left",
+          "columns":1},
+        "scale": {"scheme": "yellowgreenblue"
+        },
+        "title": null
+      },
+      "tooltip": [
+        {"field": "Sector"},
+        {"field": "Year", "type": "temporal", "timeUnit": "year", "title": "Year"},
+        {"field": "Value", "type": "quantitative", "title": "CO2 Emissions (millon tonnes)"},
+        {"field": "Value_2", 
+          "type": "quantitative", 
+          "title": "Share of annual total(%)",
+          "format":".3"}
+        
+      ]
+    }
+  }
+  
