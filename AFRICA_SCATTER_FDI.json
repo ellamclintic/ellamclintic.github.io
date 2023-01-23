@@ -41,7 +41,7 @@
       "x": {
         "field": "influence", 
         "type": "quantitative",
-        "scale": {"domain": [0, 30]},
+        "scale": {"domain": [0, 40]},
         "axis":{"grid": false},
         "title":"Total Natural Resource Rents (%)"},
   
