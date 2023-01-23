@@ -161,6 +161,81 @@ margin: 20px;
     border-style: solid;
 }
 
+#link6{
+
+    padding: 10px;
+
+    background-color:rgb(12, 59, 116);
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:gray;
+
+    font-weight: 700;
+    color:rgb(255, 255, 255)
+
+}
+
+#link6:hover{
+
+    background-color: rgb(12, 59, 116);
+
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#link7{
+
+    padding: 10px;
+
+    background-color:rgb(12, 59, 116);
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:gray;
+
+    font-weight: 700;
+    color:rgb(255, 255, 255)
+
+}
+
+#link7:hover{
+
+    background-color: rgb(12, 59, 116);
+
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#link8{
+
+    padding: 10px;
+
+    background-color:rgb(12, 59, 116);
+
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:gray;
+
+    font-weight: 700;
+    color:rgb(255, 255, 255)
+
+}
+
+#link8:hover{
+
+    background-color: rgb(12, 59, 116);
+
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
