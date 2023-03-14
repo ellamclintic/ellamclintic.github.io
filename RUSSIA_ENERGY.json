@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 500,
+    "height": 400,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Total reliance on Russian fossil fuel, EU countries",
+        "fontSize": 12,
+        "subtitle":["This indicator is the ratio of Russian fossil fuel imports to total domestic consumption.", ""],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2015,
+       "bind":{
+         "input": "range",
+         "min": 2000, 
+         "max": 2020, 
+         "step": 1,
+         "name": "year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/russia_EU_energy.csv",
+        "format": {"type": "csv"}},
+  
+    "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson",
+                    "format":{"property":"features"}},
+            "key": "properties.NAME",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+  
+    "projection": {"type": "mercator"},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"value",
+            "legend":{
+                "title":"Reliance indicator",
+                "orient": "right",
+                "direction": "vertical"},
+            "type": "quantitative",
+            "scale":{"scheme":"blues"}},
+            "tooltip":[
+        {"field":"properties.NAME", "title": "Country"},
+        {"field":"value", "title": "Reliance", "format": ""}
+      
+    ]
+    }
+  }
