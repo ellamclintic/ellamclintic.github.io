@@ -55,7 +55,7 @@
                 "orient": "right",
                 "direction": "vertical"},
             "type": "quantitative",
-            "scale":{"scheme":"blues"}},
+            "scale":{"scheme":"reds"}},
             "tooltip":[
         {"field":"properties.name", "title": "Country"},
         {"field":"value", "title": "Generation (kWh)", "format": ""}
