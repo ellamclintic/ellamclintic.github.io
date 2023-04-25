@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 550,
+    "height": 400,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Wind Energy Consumption, Per Capita",
+        "fontSize": 12,
+        "subtitle":["Energy consumption is based on primary energy equivalents, rather than final electricity use", ""],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2021,
+       "bind":{
+         "input": "range",
+         "min": 1994, 
+         "max": 2021, 
+         "step": 1,
+         "name": "year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/per-capita-wind.csv",
+        "format": {"type": "csv"}},
+  
+    "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json",
+                    "format":{"property":"features"}},
+            "key": "properties.name",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+  
+    "projection": {"type": "mercator"},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"value",
+            "legend":{
+                "title":"Consumption (kWh)",
+                "orient": "right",
+                "direction": "vertical"},
+            "type": "quantitative",
+            "scale":{"scheme":"blues"}},
+            "tooltip":[
+        {"field":"properties.name", "title": "Country"},
+        {"field":"value", "title": "Consumption (kWh)", "format": ""}
+      
+    ]
+    }
+  }
