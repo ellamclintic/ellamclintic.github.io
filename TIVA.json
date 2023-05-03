@@ -6,9 +6,9 @@
     "view": {"stroke": "transparent"},
   
     "title": {
-        "text": "Trade in Value Added, Gross Trade Balance",
+        "text": "US Trade in Value Added, by Partner Country",
         "fontSize": 12,
-        "subtitle":["US Dollars Millions, by Partner Country", ""],
+        "subtitle":["Gross Trade Balance, US Dollars Millions", ""],
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10, "anchor": "middle"},
   
