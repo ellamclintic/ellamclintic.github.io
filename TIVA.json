@@ -1,0 +1,65 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 550,
+    "height": 400,
+    "view": {"stroke": "transparent"},
+  
+    "title": {
+        "text": "Trade in Value Added, Gross Trade Balance",
+        "fontSize": 12,
+        "subtitle":["US Dollars Millions, by Partner Country", ""],
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10, "anchor": "middle"},
+  
+    "params": [    
+    {"name":"yearSelector", "value":2018,
+       "bind":{
+         "input": "range",
+         "min": 1995, 
+         "max": 2018, 
+         "step": 1,
+         "name": "year:"}
+    }],
+    
+    "data": {
+        "url":"https://raw.githubusercontent.com/ellamclintic/ellamclintic.github.io/main/TIVA_WORLD_NEW.csv",
+        "format": {"type": "csv"}},
+  
+    "transform":[
+  
+      {"filter":"datum.year == yearSelector"},
+        
+  
+  
+        {"lookup": "country",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json",
+                    "format":{"property":"features"}},
+            "key": "properties.name",
+                "fields": [       
+                    "properties",
+                    "type",
+                    "geometry"]}}],
+  
+    "projection": {"type": "mercator"},
+    "mark": "geoshape", 
+  
+    "encoding":{
+      
+        "color":{
+            "field":"value",
+            "legend":{
+                "title":"Gross Value Added",
+                "orient": "right",
+                "direction": "vertical"},
+            "type": "quantitative",
+            "scale":{"scheme":"blues"}},
+            "tooltip":[
+        {"field":"properties.name", "title": "Country"},
+        {"field":"value", "title": "TiVA", "format": ""}
+      
+    ]
+    }
+  }
